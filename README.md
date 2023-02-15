@@ -1,2 +1,4 @@
 # accident_warning
 Android 9.0
+
+Utilizing the powerful functions of smart phones, and using Gaode Software Development Kit (SDK) on the Android platform to design a software to prevent accidents that regulate the “Phubbing” drivers’ behavior and help the elderly or patients living alone are difficult to find in time after falling by fall detection alarm function. Real-time monitoring of the user's current speed and whether the mobile phone screen is in the awake state. When it is judged that the mobile phone is used in driving, the standard driving prompt is given and using a semi-forced manner to make sure turned it off. The fall detection algorithm reading the accelerometer and the gyroscope’s data of the mobile phone and automatically triggers the fall alarm mechanism to seek help from nearby people and send message to the emergency contact for assistance when the fall behavior is detected.
