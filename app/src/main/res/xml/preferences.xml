@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory
+            android:key="pre_key_personal_settings"
+            android:title="个人信息"
+            android:summary="个人信息">
+
+        <EditTextPreference
+                android:key="pre_key_name"
+                android:title="姓名："
+                android:summary="请输入姓名"
+                android:maxLines="1"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"/>
+
+        <ListPreference
+                android:key="pre_key_sex"
+                android:title="性别:"
+                android:summary="请选择性别"
+                android:dialogTitle="性别选择"
+                android:entries="@array/sex"
+                android:entryValues="@array/sex"
+                android:defaultValue="请选择性别"
+        />
+
+        <EditTextPreference
+                android:key="pre_key_age"
+                android:title="年龄"
+                android:summary="请输入年龄"
+                android:inputType="number"/>
+
+        <EditTextPreference
+                android:key="pre_key_illness"
+                android:title="病史："
+                android:summary="请输入既往重大病史"
+                android:selectAllOnFocus="true"/>
+
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+            android:key="pre_key_alert_settings"
+            android:title="报警设置"
+            android:summary="报警设置">
+
+        <SwitchPreference
+                android:key="pre_key_vibrate"
+                android:title="振动"
+                android:summary="振动开关"/>
+
+        <SwitchPreference
+                android:key="pre_key_light"
+                android:title="闪光灯"
+                android:summary="闪光灯开关"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

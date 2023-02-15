@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/rel_toast"
+        android:background="#8890EE90">
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:singleLine="false"
+            android:text="道路千万条\n安全第一条\n行车不规范\n亲人两行泪"
+            android:textAlignment="center"
+            android:gravity="center_vertical"
+            android:textColor="@color/title"
+            android:textSize="38sp"
+            android:textStyle="bold" />
+
+
+</RelativeLayout>

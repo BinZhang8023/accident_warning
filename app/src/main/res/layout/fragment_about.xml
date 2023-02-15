@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:padding="30dp"
+        android:textSize="17sp"
+        android:layout_marginBottom="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="功能介绍：\n
+        \n
+        1. 检测用户是否在行车中使用手机。当用户行车中使用手机，屏幕将更换颜色并提示用户关闭手机，此时屏幕操作正常。\n
+        \n
+        2. 检测用户是否发生跌倒。当用户发生跌倒，手机会发出声音提醒是否为误报，十秒内未关闭则认为用户确实跌倒并发送短信求助，以便获得及时的救助。注意：短信中附带用户的当前地址以及设置中个人信息"/>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="事故预防"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/app_name"
+            android:text="Version: 1.0.0"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

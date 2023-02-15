@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/id_menu_map"
+        android:title="地图与导航"
+        android:icon="@drawable/ic_map"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/id_menu_phone"
+        android:title="紧急联系人"
+        android:icon="@drawable/ic_friends"
+        app:showAsAction="ifRoom"/>
+</menu>
